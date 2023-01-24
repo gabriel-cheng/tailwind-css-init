@@ -5,7 +5,7 @@
 `yarn add -D tailwindcss`
 `npx tailwindcss init`
 
-## Criar arquivo .css e colocar:
+## Criar arquivo output.css e colocar:
 
 • `@tailwind base;`<br>
 • `@tailwind components;`<br>

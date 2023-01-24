@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind init</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body>
+    <header class="bg-citybens w-full flex justify-center px-7">
+        <div class="w-full max-w-2700 flex items-center py-4">
+            <div class="mr-20">
+                <a href="/">
+                    <img src="logotipo-branco-horiz.png" alt="Logotipo cabeçalho">
+                </a>
+            </div>
+            <nav class="pb-2 flex text-green-50 flex justify-between w-full relative after:content[' '] after:h-px after:bg-green-50 after:absolute after:bottom-0 after:w-full">
+                <ul class="flex pb-1 uppercase max-[830px]:hidden">
+                    <li class="transition duration-500 ease-in-out mr-3 hover:-translate-y-1 hover:text-citygreen"><a href="#quem-somos">QUEM SOMOS</a></li>
+                    <li class="transition duration-500 ease-in-out mr-3 hover:-translate-y-1 hover:text-citygreen"><a href="#nossos-servicos">SERVIÇOS</a></li>
+                    <li class="transition duration-500 ease-in-out mr-3 hover:-translate-y-1 hover:text-citygreen"><a href="/filiais">Filiais</a></li>
+                    <li class="transition duration-500 ease-in-out hover:-translate-y-1 hover:text-citygreen"><a href="#nossos-contatos">FALE CONOSCO</a></li>
+                </ul>
+                <div class="">
+                    <a href="/consorcio">
+                        <button class="bg-button px-2 py-1.5 rounded-3xl text-xs font-medium hover:bg-green-50 hover:text-black hover:duration-500 lg:bg-green-500">Simular consórcio</button>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>

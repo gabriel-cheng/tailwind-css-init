@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "tail": "npx tailwindcss -i ./style.css -o ./dist/output.css --watch"
+  },
+  "name": "tailwind-init",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}

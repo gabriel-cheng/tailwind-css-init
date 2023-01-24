@@ -2,8 +2,8 @@
 
 ## Adicionando projeto
 
-`yarn add -D tailwindcss`
-`npx tailwindcss init`
+• `yarn add -D tailwindcss` <br>
+• `npx tailwindcss init`
 
 ## Criar arquivo output.css e colocar:
 
@@ -13,5 +13,5 @@
 
 ## Rodar o comando:
 
-`npx tailwindcss -i caminho_do_arquivo_.css -o ./dist/output.css --watch`
+• `npx tailwindcss -i caminho_do_arquivo_.css -o ./dist/output.css --watch`
 
